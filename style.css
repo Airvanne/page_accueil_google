@@ -30,10 +30,12 @@ a:hover {
 }
 .recherche2{
 box-shadow: 0px 2px 2px silver;
-height : 2em;
+height : 3em;
 width : 38%;
 border: 1px solid silver;
-
+background-image:url(micro.png);
+background-position: 97%;
+background-repeat: no-repeat;
 }
 .recherche2:hover {
 box-shadow : 0px 4px 4px silver, 2px 0px 2px silver, 0px 0px 0px silver, -2px 0px 2px silver;
