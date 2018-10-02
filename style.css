@@ -10,9 +10,11 @@ li{
 	margin-left : 1.2em;
 
 }
-a{
+li a{
 	color : black;
 	text-decoration: none;
+	font-family: arial;
+	font-size: small;
 }
 a:hover {
 	text-decoration: underline;
@@ -29,7 +31,7 @@ a:hover {
 .recherche2{
 box-shadow: 0px 2px 2px silver;
 height : 2em;
-width : 50%;
+width : 38%;
 border: 1px solid silver;
 
 }
@@ -110,4 +112,8 @@ footer{
 	padding-right: 25px;
 	color: #666666;
 	font-size: small;
+	text-decoration: none;
+}
+#menu_bas a:hover {
+	text-decoration: underline;
 }
