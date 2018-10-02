@@ -1,15 +1,14 @@
-
 ul {
 	display : flex;
 	justify-content : flex-end;
 	flex-direction : row;
-	list-style-type: none; 
+	list-style-type: none;
 	margin-top: 2em;
 }
 
 li{
 	margin-left : 1.2em;
-	
+
 }
 a{
 	color : black;
@@ -20,7 +19,7 @@ a:hover {
 }
 .bouttons{
 	padding-top : 18px;
-	
+
 }
 .image_google{
 	padding-top : 109px;
@@ -37,6 +36,7 @@ border: 1px solid silver;
 .recherche2:hover {
 box-shadow : 0px 4px 4px silver, 2px 0px 2px silver, 0px 0px 0px silver, -2px 0px 2px silver;
 border: 1px solid silver;
+border-top: none;
 }
 
 
@@ -82,7 +82,32 @@ border: 1px solid silver;
 	font-weight: bold;
 }
 footer{
+	position:fixed;
+	bottom:0;
+	left:0;
 	display : flex;
-	
 	flex-direction : column;
+	justify-content: flex-end;
+	background-color: #f2f2f2;
+	width: 100%;
+	font-family: arial;
+	font-size: 0.9em;
+}
+#fr {
+	padding-left: 27px;
+	line-height: 40px;
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	color: #666666;
+}
+#menu_bas {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 27px;
+	line-height: 40px;
+}
+#menu_bas a {
+	padding-right: 25px;
+	color: #666666;
+	font-size: small;
 }
