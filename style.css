@@ -1,100 +1,97 @@
-ul {
-	display : flex;
-	justify-content : flex-end;
-	flex-direction : row;
-	list-style-type: none;
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*header, main, footer, .form {
+	border: 2px solid green;
+}*/
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: arial;
+}
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+.ul {
 	margin-top: 2em;
 }
-
-li{
-	margin-left : 1.2em;
-
-}
-li a{
+.ul a {
 	color : black;
 	text-decoration: none;
-	font-family: arial;
 	font-size: small;
+	padding: 1.1em;
 }
 a:hover {
 	text-decoration: underline;
+	color: #272727;
 }
-.bouttons{
-	padding-top : 18px;
-
+#connexion {
+	background-color : #4485f6;
+	padding: 0.5em 1.2em;
+	margin: 0 1.2em;
+	color : white;
+	font-weight: bold;
 }
-.image_google{
-	padding-top : 109px;
-	margin-top : 89px;
-	padding-bottom : 20px;
+main {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.recherche2{
+.form {
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.recherche2 {
 box-shadow: 0px 2px 2px silver;
 height : 3em;
-width : 38%;
+width: 632px;
 border: 1px solid silver;
-background-image:url(micro.png);
-background-position: 97%;
-background-repeat: no-repeat;
+background:url(micro.png) 97% no-repeat;
+outline: none;
 }
 .recherche2:hover {
 box-shadow : 0px 4px 4px silver, 2px 0px 2px silver, 0px 0px 0px silver, -2px 0px 2px silver;
 border: 1px solid silver;
-border-top: none;
 }
-
-
-.boutton2{
+.bouton2 {
+color: #757575;
+font-size : 13px;
+font-weight: bold;
+padding: 0.9em 1.2em;
+border : none;
+background-color: #f2f2f2;
+outline: none;
+}
+.bouton2:hover {
+	color : black;
+	border : 1px solid silver;
+}
+.bouton3{
 	color: #757575;
 	font-size : 13px;
 	font-weight: bold;
-	padding-right : 1.2em;
-	padding-left : 1.2em;
-	padding-top: 1.1em;
-	padding-bottom: 1.1em;
+	padding: 0.9em 1.2em;
 	border : none;
 	background-color: #f2f2f2;
+	outline: none;
 }
-.boutton2:hover
-{
+.bouton3:hover {
 	color : black;
-	border : 1px solid black;
+	border : 1px solid silver;
 }
-.boutton3{
-	color: #757575;
-	font-size : 13px;
-	font-weight: bold;
-	padding-right : 1.2em;
-	padding-left : 1.2em;
-	padding-top: 1.1em;
-	padding-bottom: 1.1em;
-	border : none;
-	background-color: #f2f2f2;
-}
-.boutton3:hover
-{
-	color : black;
-	border : 1px solid black;
-}
-#connexion{
-	background-color : #4485f6;
-	padding-top : 0.5em;
-	padding-bottom : 0.5em;
-	padding-left : 1.2em;
-	padding-right : 1.2em;
-	color : white;
-	font-weight: bold;
-}
-footer{
-	position:fixed;
-	bottom:0;
-	left:0;
-	display : flex;
+footer {
+	display: flex;
+	justify-content: space-between;
 	flex-direction : column;
-	justify-content: flex-end;
 	background-color: #f2f2f2;
-	width: 100%;
-	font-family: arial;
 	font-size: 0.9em;
 }
 #fr {
